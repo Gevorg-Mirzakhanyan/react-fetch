@@ -1,0 +1,25 @@
+.userContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .inputUser {
+        border-radius: 5px;
+        padding: 10px 30px;
+        width: 300px;
+        color: indigo;
+    }
+    .userList {
+        font-size: 20px;
+        color: indigo;
+        border-bottom: 1px solid indianredx;
+    }
+    .userData {
+        list-style-type: none;
+        border: 2px solid rebeccapurple;
+        margin-bottom: 5px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}
